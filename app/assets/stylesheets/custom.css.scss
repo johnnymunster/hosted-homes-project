@@ -1,4 +1,75 @@
-$navbar-default-bg: #66ccff
 
-@import "bootstrap-sprockets";
-@import "bootstrap";
+
+#testId{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    font-size: 12pt;
+}
+
+#mission-statement{
+    position: relative;
+    padding: 200px;
+    text-align: center;
+    font-size: 10pt;
+    background-color: #e6ffff;
+    height: 600px;
+    margin: 0;
+}
+
+.jumbotron {
+    background-image: asset-url('holiday-photo.jpeg');
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+
+#about-us-banner {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 80px;
+    color: white;
+}
+
+#bottom-banner {
+    height: 800px;
+    width: 100%;
+    background-color: #ccffff;
+    position: relative;
+}
+
+#meet-the-team-heading {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 90px;
+}
+
+#meet-the-team {
+    background-color: blue;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    height: 30%;
+    width: 65%;
+    margin: -5% 0 0 -25%;
+}
+
+.dev-pic {
+    border-radius: 50%;
+    border-color: white;
+    border-style: solid;
+    border-width: 10px;
+}
+
+#johnathan {
+    text-align: right;
+    float: right;
+}
+
+$navbar-default-bg: #00ffcc;
+
+ @import "bootstrap-sprockets";
+ @import "bootstrap";

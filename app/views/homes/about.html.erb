@@ -20,24 +20,39 @@
 </head>
 
 <body>
-  <div id="header">
-    <h1 style="text-align:center;"><a href="index.html">Quick Car</a></h1> </div>
-  <div id="nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a id="active" href="about.html">Who We Are</a></li>
-      <li><a href="contact.html">Get in Touch</a></li>
-    </ul>
+  
+  <div class="jumbotron">
+    <p id="about-us-banner">About Us</p>
+    
   </div>
-  <div id="content">
-    <div id="feature"> <img class="mainPic" src="pic/car1.jpg" alt="car" /> </div>
-        <div id="about">
-            <h1>What is Quick Car?</h1>
-            <p>We're not all the same. We all have different needs, different desires, different ideas, and different ways of life. At Quick Car, we recognised this, and we can give you the flexibility you've always desired when renting out or hiring a car. You choose the price. You choose the duration. You choose the terms. No hidden fees. No red tape.</p>
-            <h1>Who are we?</h1>
-            <p>We are just three humble gents wishing to make hiring a car easier. Nothing less, nothing more. Please reach out to us if you would like to know anything and we will happily reply.</p>
-        </div>
+    <div id="mission-statement">
+      <h1>- Our Mission -</h1>
+      <h2>To enpower both hosts and travellers to spend their time and money more wisely.</h2>
+      </br>
+      </br>
+      <h1>About</h1>
+      <p>At Hosted Homes, we want to text text text</p>
+      <p>orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+      esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt 
+      in culpa qui officia deserunt mollit anim id est laborum</p>
     </div>
+    
+  <div id="content">
+    <div id="bottom-banner">
+      <p id="meet-the-team-heading">- Meet The Team -</p>
+        <div id="meet-the-team">
+          <%= link_to href: 'http://www.github.com/KevinKerin' do %>
+            <%= image_tag("kevin.png", :size => '300x300', :class => "dev-pic", :id => "kevin")%>
+          <% end %>
+          <%= link_to href: 'http://www.github.com/johnnymunster' do %>
+            <%= image_tag("johnathan.png", :size => '300x300', :class => "dev-pic", :id => "johnathan")%>
+          <% end %>
+        </div>
+
+    </div>
+  </div>
    <footer id="footerUpdate"><p>Copyright KK, JM, & SR &copy; 2018</p>
     </footer>
     <script type="text/javascript" src="newScript.js"></script>
